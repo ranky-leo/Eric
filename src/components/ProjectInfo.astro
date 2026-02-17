@@ -1,0 +1,145 @@
+---
+import Brand from "./Brand.astro";
+import Typescript from "./svg/Typescript.astro";
+import ReactJS from "./svg/ReactJS.astro";
+import GraphQL from "./svg/GraphQL.astro";
+import Docker from "./svg/Docker.astro";
+import Kubernetes from "./svg/kubernetes.astro";
+import Enzyme from "./svg/Enzyme.astro";
+import PHP from "./svg/PHP.astro";
+import Laravel from "./svg/Laravel.astro";
+import Javascript from "./svg/Javascript.astro";
+import RabbitMQ from "./svg/RabbitMQ.astro";
+import NodeJS from "./svg/NodeJS.astro";
+import Ansible from "./svg/Ansible.astro";
+import Apollo from "./svg/Apollo.astro";
+import Jest from "./svg/Jest.astro";
+import DJango from "./svg/DJango.astro";
+import AWS from "./svg/AWS.astro";
+import Python from './svg/Python.astro'
+import Vue from "./svg/Vue.astro";
+import Nuxt from './svg/NuxtJS.astro'
+import Angular from "./svg/Angular.astro";
+import Ruby from "./svg/Ruby.astro";
+import MongoDB from "./svg/MongoDB.astro";
+
+interface Props {
+  title:string,
+  description: string,
+  url: string,
+  image:string,
+  technologies: Array<string>
+}
+const { title, description, url, image, technologies } = Astro.props;
+---
+<article
+    class="show-scroll ring-1 p-2 rounded-3xl bg-gradient-to-t from-slate-800/20 ring-white/10 relative my-5"
+  >
+    <div
+      class="relative isolate overflow-hidden p-8 flex flex-col ring-1 ring-white/10 shadow-massive rounded-2xl bg-card/80 lg:p-20"
+    >
+      <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
+        <picture>
+          <a
+            href={url}
+            title={title}
+            target="_blank"
+            ><img
+              src={image}
+              class="w-full object-cover hover:grayscale transition duration-300 ease-in-out" alt={title}
+            /></a
+          >
+        </picture>
+        <div>
+          <h3 class="font-bold text-3xl">
+            <a
+              href={url}
+              class="text-slate-300 hover:text-slate-200"
+              title={title}
+              target="_blank">{title}</a>
+          </h3>
+          <p class="mt-3">
+            {description}
+          </p>
+          <div class="flex items-center gap-5 mt-10">
+            {
+            technologies?.map(el => {
+                  switch(el){
+                    case "TypeScript":
+                      return(<Brand><Typescript /><span class="tooltiptext">TypeScript</span></Brand>)
+                      break;
+                    case "React":
+                      return(<Brand><ReactJS /><span class="tooltiptext">React.JS</span></Brand>)
+                      break;
+                    case "React Native":
+                      return(<Brand><ReactJS /><span class="tooltiptext">React Native</span></Brand>)
+                      break;
+                    case "Vue":
+                      return(<Brand><Vue /><span class="tooltiptext">Vue.JS</span></Brand>)
+                      break;
+                    case "Nuxt":
+                      return(<Brand><Nuxt /><span class="tooltiptext">Nuxt.jS</span></Brand>)
+                      break;
+                    case "GraphQL":
+                      return(<Brand><GraphQL /><span class="tooltiptext">GraphQL</span></Brand>)
+                      break;
+                    case "Docker":
+                      return(<Brand><Docker /><span class="tooltiptext">Docker</span></Brand>)
+                      break;
+                    case "Kubernetes":
+                      return(<Brand><Kubernetes /><span class="tooltiptext">Kubernetes</span></Brand>)
+                      break;  
+                    case "Enzyme":
+                      return(<Brand><Enzyme /><span class="tooltiptext">Enzyme</span></Brand>)
+                      break;      
+                    case "Laravel":
+                      return(<Brand><Laravel /><span class="tooltiptext">Laravel</span></Brand>)
+                      break; 
+                    case "PHP":
+                      return(<Brand><PHP /><span class="tooltiptext">PHP</span></Brand>)
+                      break; 
+                    case "Javascript":
+                      return(<Brand><Javascript /><span class="tooltiptext">Javascript</span></Brand>)
+                      break; 
+                    case "RabbitMQ":
+                      return(<Brand><RabbitMQ /><span class="tooltiptext">RabbitMQ</span></Brand>)
+                      break; 
+                    case "Node":
+                      return(<Brand><NodeJS /><span class="tooltiptext">Node.JS</span></Brand>)
+                      break;          
+                    case "Ansible":
+                      return(<Brand><Ansible /><span class="tooltiptext">Ansible</span></Brand>)
+                      break;          
+                    case "Apollo":
+                      return(<Brand><Apollo /><span class="tooltiptext">Apollo</span></Brand>)
+                      break;          
+                    case "Jest":
+                      return(<Brand><Jest /><span class="tooltiptext">Jest</span></Brand>)
+                      break;          
+                    case "Django":
+                      return(<Brand><DJango /><span class="tooltiptext">Django</span></Brand>)
+                      break;          
+                    case "AWS":
+                      return(<Brand><AWS /><span class="tooltiptext">AWS</span></Brand>)
+                      break;          
+                    case "Python":
+                      return(<Brand><Python /><span class="tooltiptext">Python</span></Brand>)
+                      break;   
+                    case "Ruby":
+                      return(<Brand><Ruby /><span class="tooltiptext">Ruby on Rail</span></Brand>)
+                      break;          
+                    case "Angular":
+                      return(<Brand><Angular /><span class="tooltiptext">Angular.JS</span></Brand>)
+                      break;   
+                    case "MongoDB":
+                      return(<Brand><MongoDB /><span class="tooltiptext">MongoDB</span></Brand>)
+                      break;          
+                  }
+                })
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  

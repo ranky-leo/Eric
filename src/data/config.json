@@ -1,0 +1,174 @@
+{
+  "basic": {
+    "title": "Eric Jin | Portfolio",
+    "description": "Porfolio"
+  },
+  "hero": {
+    "fullName": "Eric Jin",
+    "iam": [
+      "Senior Full-stack Developer",
+      "MERN Stack Developer",
+      "Problem-solving",
+      "Leadership",
+      "Team player"
+    ],
+    "shortDescription": "Experienced Full Stack Developer with over 12 years of expertise in building and optimizing high-performance web and mobile applications. Skilled across modern front-end frameworks (React, Vue, Angular) and back-end technologies (Node.js, Python, PHP, Java). Strong background in scalable architecture, API development, and cloud deployment. Recognized for clean, efficient code, technical leadership, and a passion for creating innovative solutions that enhance user experience and drive business growth.",
+    "cvUrl": "/files/cv-template.pdf"
+  },
+  "workExperience": [
+    {
+      "dateRange": "Aug 2020 - Present",
+      "title": "Senior Full-stack Developer",
+      "subtitle": "LocalSpark (Remote)",
+      "keyAccomplishment": [
+        "Architected and developed a high-performance, enterprise-grade Email-SMS service platform, enabling businesses to efficiently reach and engage with their target audience. Successfully onboarded <b>300+ businesses and managed 100K+ contacts</b>, significantly increasing user engagement, customer retention, and overall platform adoption.",
+        "Designed and implemented a modern, intuitive, and fully responsive user interface using Svelte, delivering a seamless and polished experience across web platforms. Focused on creating a coherent and naturally flowing user journey that enhanced usability, minimized friction, and elevated the platform’s professional appeal.",
+        "Optimized backend performance through FaunaDB indexing and GraphQL implementation, enabling faster data retrieval, reduced query latency, and highly scalable architecture. This approach ensured that the platform could efficiently handle large datasets while maintaining reliability and maintainability.",
+        "Integrated multiple enterprise-grade APIs, including Auth0 for secure authentication, Bandwidth and Mailgun for reliable communication, and Stripe for streamlined payment processing, creating a secure, end-to-end solution that significantly improved platform functionality and user experience."
+      ]
+    },
+    {
+      "dateRange": "Sep 2018 – Jul 2020",
+      "title": "Technical Lead | Project Manager",
+      "subtitle": "WiderNet (Remote)",
+      "keyAccomplishment": [
+        "Spearheaded the design and implementation of cutting-edge, highly responsive, and user-centric UI enhancements by rigorously analyzing user behavior, conducting A/B testing, and refining component structures with the most advanced front-end frameworks, including React, Vue.js, and Svelte. Focused on ensuring seamless user experiences by optimizing rendering performance, reducing load times, and improving accessibility, ultimately leading to a frictionless, engaging interface. Integrated the powerful OpenAI GPT-3 model to transform user feedback processing, enabling sophisticated features such as intelligent autosuggestions, personalized content recommendations, and AI-powered chat interactions that felt more intuitive and tailored to each user.",
+        "Architected and managed scalable, high-availability back-end infrastructures across multiple cloud providers, including Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure, creating robust cloud-native solutions designed to handle large-scale, high-traffic systems with exceptional performance.",
+        "In the back-end, designed efficient database architectures using PostgreSQL, MySQL, and MongoDB, implementing advanced indexing, query optimization, and caching techniques to ensure lightning-fast data retrieval, even when dealing with extensive data sets and complex queries. Leveraged NoSQL databases where appropriate for high-throughput, low-latency operations, while optimizing ACID-compliant relational databases for transactional integrity and performance. Enhanced system scalability by designing intelligent data partitioning strategies and creating a robust data model to support future growth."
+      ]
+    },
+    {
+      "dateRange": "Jul 2017 – Aug 2018",
+      "title": "Senior Full-stack Developer",
+      "subtitle": "Meta Marketing (Remote)",
+      "keyAccomplishment": [
+        "Designed and developed a suite of cutting-edge tools to enhance on-set workflows for major motion pictures and premium television productions, streamlining scheduling, form creation, and workflow automation. Built a dynamic schedule and form builder inspired by Google Forms, enabling production teams to efficiently manage and customize workflows tailored to specific filming needs. The toolset significantly improved real-time collaboration, data accuracy, and on-set efficiency, reducing manual paperwork and ensuring seamless digital transformation in high-paced production environments.",
+        "Developed a React Native offline mode by integrating Redux store persistence, ensuring uninterrupted usability even in low-connectivity environments. Implemented delayed data synchronization mechanisms, allowing queued actions to be processed once the device regained internet access, preserving data integrity and user actions.",
+        "Established seamless GraphQL API communication using Apollo Client and REST API integrations via Axios, optimizing data retrieval and state synchronization between the front end and back end. Designed a custom caching and pagination strategy to minimize redundant API calls and improve app responsiveness."
+      ]
+    },
+    {
+      "dateRange": "Aug 2014 – Jun 2017",
+      "title": "Full-stack Developer",
+      "subtitle": "Alpaca (Hybrid)",
+      "keyAccomplishment": [
+        "Designed and developed Bytes Route, a full-fledged onboarding service from the ground up, comprising a highly optimized single-page web application (SPA) and a Chrome extension.",
+        "Spearheaded a large-scale UI revamp for AdvancedInstaller.com, leveraging XML and XSLT to modernize and enhance the website’s structure and presentation.",
+        "Played a key role in the development, deployment, and production management of multiple user-facing and admin web applications, including InstallerAnalytics.com."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Localspark",
+      "url": "https://www.localspark.ai/",
+      "description": "Designed and implemented the AI-driven marketing analytics dashboard for small businesses. Built with PHP, Laravel, Vite, featuring real-time campaign insights, lead tracking, and automated performance reports powered by OpenAI and data visualization tools.",
+      "technologiesUsed": ["PHP", "Laravel", "Vue", "Node", "AWS"],
+      "image": "/images/image2.png"
+    },
+    {
+      "title": "Businessinsuranceusa",
+      "url": "https://www.businessinsuranceusa.com/",
+      "description": "I contributed to the modernization of the company’s insurance quoting platform, optimizing form workflows and integrating secure APIs for policy management. Improved load time and UX using React and RESTful backend integration.",
+      "technologiesUsed": ["PHP", "Laravel", "Javascript", "Vue", "RabbitMQ"],
+      "image": "/images/image3.png"
+    },
+    {
+      "title": "Wellnessentially ",
+      "url": "https://wellnessentially.com/",
+      "description": "A MERN Stack mobile and web application built for companies to help to lower stress and increase productivity and overall well-being of their employees. I developed the front end with React and Bootstrap and the back end using Node.js, Express.js, and Mongo and hosted it on Azure.",
+      "technologiesUsed": ["Ruby", "TypeScript", "Angular", "Docker", "AWS"],
+      "image": "/images/image4.png"
+    },
+    {
+      "title": "Gardenkitchen",
+      "url": "https://gardenkitchen.us/",
+      "description": "Developed a responsive restaurant website featuring an online menu, table reservation system, and integrated order forms. Built with Shopify and TailwindCSS for speed and scalability, with a lightweight Node.js backend for contact and order APIs.",
+      "technologiesUsed": [
+        "Javascript",
+        "React Native",
+        "GraphQL",
+        "Jest",
+        "Apollo"
+      ],
+      "image": "/images/image5.png"
+    },
+    {
+      "title": "Installeranalytics",
+      "url": "https://installeranalytics.com/",
+      "description": "A SaaS analytics service for Windows installers. I worked on new report generation, analytics, presentation, and UI improvements for the front end along with DevOps, database administration, and RESTful microservices on the back-end side.",
+      "technologiesUsed": ["React", "Python", "Django", "AWS", "Docker"],
+      "image": "/images/image6.png"
+    }
+  ],
+  "aboutMe": {
+    "description": [
+      "Accomplished Senior Full Stack Developer with 12 years of experience building, optimizing, and leading the development of high-performance web and mobile applications. Proficient across a wide range of technologies - from modern front-end frameworks like React, Vue, and Angular to powerful back-end environments such as Node.js, Python, PHP, and Java. Skilled in database design, API development, cloud deployment, and scalable architecture. Recognized for writing clean, efficient code and for mentoring teams to deliver exceptional results on time. Passionate about leveraging technology to solve complex problems, enhance user experiences, and drive business growth through innovation and technical excellence."
+    ],
+    "education": [
+      {
+        "dateRange": "2011 – 2014",
+        "degree": "Bachelor's degree in Computer Science",
+        "school": "Kanagawa University"
+      }
+    ],
+    "technicalSkills": [
+      "TypeScript",
+      "React.js",
+      "Vue.js",
+      "Angular",
+      "Svelte",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "PHP",
+      "Shopify",
+      "Wordpress",
+      "MySQL",
+      "Laravel",
+      "Python",
+      "Django",
+      "Ruby and Rails",
+      "Java",
+      "C#",
+      "MongoDB (Mongoose)",
+      "REST APIs",
+      "Tailwind CSS",
+      "Redux",
+      "Zustand",
+      "JWT Auth",
+      "Firebase",
+      "Supabase",
+      "Odoo",
+      "Stripe",
+      "Git",
+      "Docker (basic)",
+      "Vercel",
+      "Heroku",
+      "GitHub Actions",
+      "Postman",
+      "Jest",
+      "AWS",
+      "Microsoft Azure",
+      "React Testing Library",
+      "Smart Contracts",
+      "DeFi"
+    ],
+    "softSkills": [
+      "Collaboration",
+      "Communication",
+      "Problem-Solving",
+      "Leadership",
+      "Adaptability",
+      "Team player",
+      "User-Centered Thinking",
+      "Attention to Detail"
+    ]
+  },
+  "social": {
+    "github": "https://github.com/ranky-leo",
+    "twitter": "https://twitter.com/",
+    "linkedin": "https://www.linkedin.com/in/erik-jin-4124823a8/",
+    "email": "erikjin.yato@gmail.com"
+  }
+}

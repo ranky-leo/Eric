@@ -1,0 +1,73 @@
+---
+import H2Section from "./H2SectionCenter.astro";
+
+interface Education {
+  dateRange: string,
+  degree: string,
+  school: string
+}
+
+interface Props {
+  description:Array<string>,
+  technicalSkill: Array<string>,
+  softSkill:Array<string>,
+  education: Education
+}
+const { description, technicalSkill, softSkill, education } = Astro.props;
+---
+
+<section id="about" class="pt-20 mb-20" data-scroll-spy>
+  <header>
+    <H2Section
+      number="3"
+      pretitle="Me"
+      h2="About"
+      gradientFrom="from-teal-500"
+      gradientTo="to-teal-300"
+    />
+  </header>
+  <article>
+    {
+      description.map(item => 
+      <p>
+        {item}
+      </p>
+    )
+    }
+    <div>    
+      <div class="mt-8 mb-2 font-semibold text-slate-200">EDUCATION</div>
+      {
+        education.map((item, index) => 
+          <div key={index}>
+            <time class="mb-1 text-sm leading-none text-cyan-400">{item.dateRange}</time>
+            <h3 class="text-lg font-semibold text-slate-200">
+              {item.degree}
+            </h3>
+            <p class="mb-4">{item.school}</p>
+          </div>
+        )
+      }
+    </div>
+
+    <div class="mt-8 mb-2 font-semibold text-slate-200">TECHNICAL SKILLS</div>
+    <ul
+      class="list-disc grid grid-cols-2 md:grid-cols-4 pl-5 marker:text-cyan-400 [&>li]:mt-1 [&>li]:show-scroll"
+    >
+    {
+          technicalSkill.map(skill => {
+            return (<li>{skill}</li>)
+          })
+    }
+    </ul>
+    <div class="mt-8 mb-2 font-semibold text-slate-200">SOFT SKILLS</div>
+    <ul
+      class="list-disc grid grid-cols-2 md:grid-cols-4 pl-5 marker:text-cyan-400 [&>li]:mt-1 [&>li]:show-scroll"
+    >
+      {
+          softSkill.map(skill => {
+            return (<li>{skill}</li>)
+          })
+    }
+    </ul>
+  </article>
+</section>
