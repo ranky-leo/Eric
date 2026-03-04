@@ -6,25 +6,28 @@
   "hero": {
     "fullName": "Eric Jin",
     "iam": [
+      "Artificial Intelligence Engineer",
       "Senior Full-stack Developer",
-      "MERN Stack Developer",
       "Problem-solving",
       "Leadership",
       "Team player"
     ],
-    "shortDescription": "Experienced Full Stack Developer with over 12 years of expertise in building and optimizing high-performance web and mobile applications. Skilled across modern front-end frameworks (React, Vue, Angular) and back-end technologies (Node.js, Python, PHP, Java). Strong background in scalable architecture, API development, and cloud deployment. Recognized for clean, efficient code, technical leadership, and a passion for creating innovative solutions that enhance user experience and drive business growth.",
+    "shortDescription": "Senior Software Engineer with 12+ years of experience designing scalable backend systems, full-stack applications, and distributed cloud architectures. Strong multi-language expertise in Python, JavaScript (ReactJS), Java, and C#. Extensive experience integrating and evaluating large language models (LLMs) in production environments, including refining AI-generated code, building validation pipelines, and designing automated mechanisms to verify correctness, performance, and reliability. Skilled in software architecture, clean code principles, test-driven development, and building systems that are scalable, maintainable, and benchmark-ready.",
     "cvUrl": "/files/cv-template.pdf"
   },
   "workExperience": [
     {
       "dateRange": "Aug 2020 - Present",
-      "title": "Senior Full-stack Developer",
+      "title": "Artificial Intelligence Engineer | Senior Full-stack Developer",
       "subtitle": "LocalSpark (Remote)",
       "keyAccomplishment": [
-        "Architected and developed a high-performance, enterprise-grade Email-SMS service platform, enabling businesses to efficiently reach and engage with their target audience. Successfully onboarded <b>300+ businesses and managed 100K+ contacts</b>, significantly increasing user engagement, customer retention, and overall platform adoption.",
-        "Designed and implemented a modern, intuitive, and fully responsive user interface using Svelte, delivering a seamless and polished experience across web platforms. Focused on creating a coherent and naturally flowing user journey that enhanced usability, minimized friction, and elevated the platform’s professional appeal.",
-        "Optimized backend performance through FaunaDB indexing and GraphQL implementation, enabling faster data retrieval, reduced query latency, and highly scalable architecture. This approach ensured that the platform could efficiently handle large datasets while maintaining reliability and maintainability.",
-        "Integrated multiple enterprise-grade APIs, including Auth0 for secure authentication, Bandwidth and Mailgun for reliable communication, and Stripe for streamlined payment processing, creating a secure, end-to-end solution that significantly improved platform functionality and user experience."
+        "Designed and implemented scalable backend services supporting 100K+ users with high-availability architecture.",
+        "Integrated LLM-based automation workflows to enhance analytics and communication systems.",
+        "Evaluated and refined AI-generated code for correctness, scalability, and production readiness.",
+        "Built modular API systems using GraphQL and event-driven communication patterns.",
+        "Designed automated validation checks and testing pipelines to ensure release reliability.",
+        "Led database migration initiatives with a focus on performance optimization and data integrity.",
+        "Implemented CI/CD pipelines with automated testing and deployment strategies."
       ]
     },
     {
@@ -63,7 +66,13 @@
       "title": "Localspark",
       "url": "https://www.localspark.ai/",
       "description": "Designed and implemented the AI-driven marketing analytics dashboard for small businesses. Built with PHP, Laravel, Vite, featuring real-time campaign insights, lead tracking, and automated performance reports powered by OpenAI and data visualization tools.",
-      "technologiesUsed": ["PHP", "Laravel", "Vue", "Node", "AWS"],
+      "technologiesUsed": [
+        "Python",
+        "OpenAI API",
+        "MLflow",
+        "LangChain",
+        "AWS"
+      ],
       "image": "/images/image2.png"
     },
     {
@@ -103,7 +112,7 @@
   ],
   "aboutMe": {
     "description": [
-      "Accomplished Senior Full Stack Developer with 12 years of experience building, optimizing, and leading the development of high-performance web and mobile applications. Proficient across a wide range of technologies - from modern front-end frameworks like React, Vue, and Angular to powerful back-end environments such as Node.js, Python, PHP, and Java. Skilled in database design, API development, cloud deployment, and scalable architecture. Recognized for writing clean, efficient code and for mentoring teams to deliver exceptional results on time. Passionate about leveraging technology to solve complex problems, enhance user experiences, and drive business growth through innovation and technical excellence."
+      "Senior Software Engineer with 12+ years of experience designing scalable backend systems, full-stack applications, and distributed cloud architectures. Strong multi-language expertise in Python, JavaScript (ReactJS), Java, and C#. Extensive experience integrating and evaluating large language models (LLMs) in production environments, including refining AI-generated code, building validation pipelines, and designing automated mechanisms to verify correctness, performance, and reliability. Skilled in software architecture, clean code principles, test-driven development, and building systems that are scalable, maintainable, and benchmark-ready."
     ],
     "education": [
       {
@@ -113,46 +122,38 @@
       }
     ],
     "technicalSkills": [
-      "TypeScript",
-      "React.js",
-      "Vue.js",
-      "Angular",
-      "Svelte",
-      "Next.js",
-      "Node.js",
-      "Express.js",
-      "PHP",
-      "Shopify",
-      "Wordpress",
-      "MySQL",
-      "Laravel",
       "Python",
-      "Django",
-      "Ruby and Rails",
+      "JavaScript (ReactJS)",
+      "TypeScript",
       "Java",
       "C#",
-      "MongoDB (Mongoose)",
-      "REST APIs",
-      "Tailwind CSS",
-      "Redux",
-      "Zustand",
-      "JWT Auth",
-      "Firebase",
-      "Supabase",
-      "Odoo",
-      "Stripe",
-      "Git",
-      "Docker (basic)",
-      "Vercel",
-      "Heroku",
-      "GitHub Actions",
-      "Postman",
-      "Jest",
+      "PHP",
+      "Ruby",
+      "LLM Integration (GPT-3/4)",
+      "Prompt Engineering",
+      "AI Code Review & Refinement",
+      "Benchmarking Model Outputs",
+      "Automated Code Validation",
+      "Static Analysis",
+      "Test-Driven Evaluation",
+      "Microservices",
+      "Distributed Systems",
+      "Event-Driven Architecture",
+      "RESTful APIs",
+      "GraphQL",
+      "gRPC",
+      "Domain-Driven Design",
       "AWS",
       "Microsoft Azure",
-      "React Testing Library",
-      "Smart Contracts",
-      "DeFi"
+      "Google Cloud Platform",
+      "Docker",
+      "Kubernetes",
+      "CI/CD Pipelines",
+      "Infrastructure as Code",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Redis"
     ],
     "softSkills": [
       "Collaboration",
@@ -168,7 +169,7 @@
   "social": {
     "github": "https://github.com/ranky-leo",
     "twitter": "https://twitter.com/",
-    "linkedin": "https://www.linkedin.com/in/erik-jin-4124823a8/",
+    "linkedin": "https://www.linkedin.com/in/eric-jin-467a743b1/",
     "email": "erikjin.yato@gmail.com"
   }
 }
