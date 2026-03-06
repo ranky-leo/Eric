@@ -12,52 +12,73 @@
       "Leadership",
       "Team player"
     ],
-    "shortDescription": "Senior Software Engineer with 12+ years of experience designing scalable backend systems, full-stack applications, and distributed cloud architectures. Strong multi-language expertise in Python, JavaScript (ReactJS), Java, and C#. Extensive experience integrating and evaluating large language models (LLMs) in production environments, including refining AI-generated code, building validation pipelines, and designing automated mechanisms to verify correctness, performance, and reliability. Skilled in software architecture, clean code principles, test-driven development, and building systems that are scalable, maintainable, and benchmark-ready.",
+    "shortDescription": "Senior Full-Stack Engineer and AI Systems Developer with over 14 years of experience designing and building scalable SaaS platforms, cloud-native infrastructure, and AI-powered applications. Proven expertise in developing LLM-driven systems, intelligent automation workflows, and data-driven platforms using modern technologies including Node.js, Python, React, and TypeScript.",
     "cvUrl": "/files/cv-template.pdf"
   },
   "workExperience": [
     {
-      "dateRange": "Aug 2020 - Present",
+      "dateRange": "Sep 2025 - Present",
       "title": "Artificial Intelligence Engineer | Senior Full-stack Developer",
+      "subtitle": "Webasen (Remote)",
+      "keyAccomplishment": [
+        "Design and develop AI-powered web applications and automation systems integrating Large Language Models using the OpenAI API to enable intelligent content generation, data analysis, and workflow automation.",
+        "Build scalable backend services and APIs using Node.js and Python, implementing microservices architectures for high-performance data processing and AI-driven features.",
+        "Implement Retrieval-Augmented Generation (RAG) pipelines using vector embeddings and semantic search to improve accuracy of AI-generated responses and enterprise knowledge retrieval.",
+        "Develop modern frontend interfaces using React and TypeScript to deliver responsive, data-driven user experiences integrated with AI services.",
+        "Architect and deploy cloud-native applications across Amazon Web Services and Google Cloud Platform, ensuring scalability, reliability, and cost-efficient infrastructure."
+      ]
+    },
+    {
+      "dateRange": "Sep 2023 – Jan 2026",
+      "title": "Full-stack Developer | AI Engineer | Project Manager",
       "subtitle": "LocalSpark (Remote)",
       "keyAccomplishment": [
-        "Designed and implemented scalable backend services supporting 100K+ users with high-availability architecture.",
-        "Integrated LLM-based automation workflows to enhance analytics and communication systems.",
-        "Evaluated and refined AI-generated code for correctness, scalability, and production readiness.",
-        "Built modular API systems using GraphQL and event-driven communication patterns.",
-        "Designed automated validation checks and testing pipelines to ensure release reliability.",
-        "Led database migration initiatives with a focus on performance optimization and data integrity.",
-        "Implemented CI/CD pipelines with automated testing and deployment strategies."
+        "Led the design and development of AI-powered SaaS platforms and analytics systems, integrating Large Language Models through the OpenAI API to enable intelligent automation, predictive insights, and data-driven decision making.",
+        "Architected and implemented scalable full-stack web applications using Node.js, Python, React, and TypeScript, delivering high-performance APIs and modern user interfaces for enterprise clients.",
+        "Managed and mentored cross-functional engineering teams in an Agile development environment, coordinating project planning, technical design, and product delivery.",
+        "Developed scalable REST and GraphQL APIs supporting large-scale data processing and real-time analytics systems.",
+        "Containerized and deployed applications using Docker and automated deployments through CI/CD pipelines for faster and reliable releases.",
+        "Collaborated closely with product stakeholders and business teams to translate technical architecture into scalable SaaS solutions used by multiple organizations."
       ]
     },
     {
-      "dateRange": "Sep 2018 – Jul 2020",
-      "title": "Technical Lead | Project Manager",
-      "subtitle": "WiderNet (Remote)",
-      "keyAccomplishment": [
-        "Spearheaded the design and implementation of cutting-edge, highly responsive, and user-centric UI enhancements by rigorously analyzing user behavior, conducting A/B testing, and refining component structures with the most advanced front-end frameworks, including React, Vue.js, and Svelte. Focused on ensuring seamless user experiences by optimizing rendering performance, reducing load times, and improving accessibility, ultimately leading to a frictionless, engaging interface. Integrated the powerful OpenAI GPT-3 model to transform user feedback processing, enabling sophisticated features such as intelligent autosuggestions, personalized content recommendations, and AI-powered chat interactions that felt more intuitive and tailored to each user.",
-        "Architected and managed scalable, high-availability back-end infrastructures across multiple cloud providers, including Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure, creating robust cloud-native solutions designed to handle large-scale, high-traffic systems with exceptional performance.",
-        "In the back-end, designed efficient database architectures using PostgreSQL, MySQL, and MongoDB, implementing advanced indexing, query optimization, and caching techniques to ensure lightning-fast data retrieval, even when dealing with extensive data sets and complex queries. Leveraged NoSQL databases where appropriate for high-throughput, low-latency operations, while optimizing ACID-compliant relational databases for transactional integrity and performance. Enhanced system scalability by designing intelligent data partitioning strategies and creating a robust data model to support future growth."
-      ]
-    },
-    {
-      "dateRange": "Jul 2017 – Aug 2018",
-      "title": "Senior Full-stack Developer",
-      "subtitle": "Meta Marketing (Remote)",
-      "keyAccomplishment": [
-        "Designed and developed a suite of cutting-edge tools to enhance on-set workflows for major motion pictures and premium television productions, streamlining scheduling, form creation, and workflow automation. Built a dynamic schedule and form builder inspired by Google Forms, enabling production teams to efficiently manage and customize workflows tailored to specific filming needs. The toolset significantly improved real-time collaboration, data accuracy, and on-set efficiency, reducing manual paperwork and ensuring seamless digital transformation in high-paced production environments.",
-        "Developed a React Native offline mode by integrating Redux store persistence, ensuring uninterrupted usability even in low-connectivity environments. Implemented delayed data synchronization mechanisms, allowing queued actions to be processed once the device regained internet access, preserving data integrity and user actions.",
-        "Established seamless GraphQL API communication using Apollo Client and REST API integrations via Axios, optimizing data retrieval and state synchronization between the front end and back end. Designed a custom caching and pagination strategy to minimize redundant API calls and improve app responsiveness."
-      ]
-    },
-    {
-      "dateRange": "Aug 2014 – Jun 2017",
+      "dateRange": "Jan 2022 – Jul 2023",
       "title": "Full-stack Developer",
+      "subtitle": "BussinessInsuranceUSA (Remote)",
+      "keyAccomplishment": [
+        "Developed and maintained scalable full-stack web applications supporting online insurance services, improving platform performance and user experience.",
+        "Built robust backend APIs and microservices using Node.js and Python to handle client data processing, authentication, and business logic for insurance-related workflows.",
+        "Designed and implemented responsive frontend interfaces using React and modern JavaScript frameworks to deliver seamless and intuitive user experiences.",
+        "Integrated third-party services and APIs to support payment processing, document management, and customer data systems.",
+        "Optimized database queries and backend logic using PostgreSQL and MongoDB to improve application performance and data reliability.",
+        "Implemented secure authentication systems and role-based access control to protect sensitive customer and policy information.",
+        "Deployed and maintained applications on cloud infrastructure including Amazon Web Services, ensuring reliable production environments."
+      ]
+    },
+    {
+      "dateRange": "Sep 2017 – Dec 2021",
+      "title": "Full-stack Developer",
+      "subtitle": "LeadAction (Remote)",
+      "keyAccomplishment": [
+        "Developed and maintained scalable SaaS platforms and web applications supporting marketing automation and customer engagement systems used by businesses to manage campaigns and communication workflows.",
+        "Designed and implemented high-performance backend services and RESTful APIs using Node.js and Python, enabling reliable data processing and integration with external services.",
+        "Built modern and responsive frontend applications using React and JavaScript, delivering intuitive dashboards and user interfaces for campaign management and analytics.",
+        "Implemented email and SMS automation workflows, supporting large-scale messaging infrastructure and customer engagement tools.",
+        "Designed and optimized database schemas and queries using PostgreSQL and MySQL to support high-volume transactional and analytics workloads.",
+        "Integrated third-party APIs for payment systems, marketing platforms, and communication services, expanding the platform’s automation capabilities."
+      ]
+    },
+    {
+      "dateRange": "Aug 2012 – Jun 2017",
+      "title": "Intern | Full-stack Developer",
       "subtitle": "Alpaca (Hybrid)",
       "keyAccomplishment": [
-        "Designed and developed Bytes Route, a full-fledged onboarding service from the ground up, comprising a highly optimized single-page web application (SPA) and a Chrome extension.",
-        "Spearheaded a large-scale UI revamp for AdvancedInstaller.com, leveraging XML and XSLT to modernize and enhance the website’s structure and presentation.",
-        "Played a key role in the development, deployment, and production management of multiple user-facing and admin web applications, including InstallerAnalytics.com."
+        "Started as a software engineering intern and progressed into a Full-Stack Developer role, contributing to the development of internal tools and web-based applications.",
+        "Developed responsive frontend interfaces using JavaScript, HTML5, and CSS, improving usability and accessibility across desktop and mobile devices.",
+        "Participated in the development of database-driven applications, writing optimized queries and maintaining relational databases such as MySQL and PostgreSQL.",
+        "Contributed to the integration of third-party APIs and external services to extend application functionality.",
+        "Collaborated with senior engineers and designers to deliver product features, fix bugs, and improve overall platform performance.",
+        "Gained hands-on experience with software development lifecycle practices, version control systems, and Agile development workflows."
       ]
     }
   ],
@@ -112,9 +133,19 @@
   ],
   "aboutMe": {
     "description": [
-      "Senior Software Engineer with 12+ years of experience designing scalable backend systems, full-stack applications, and distributed cloud architectures. Strong multi-language expertise in Python, JavaScript (ReactJS), Java, and C#. Extensive experience integrating and evaluating large language models (LLMs) in production environments, including refining AI-generated code, building validation pipelines, and designing automated mechanisms to verify correctness, performance, and reliability. Skilled in software architecture, clean code principles, test-driven development, and building systems that are scalable, maintainable, and benchmark-ready."
+      "Senior Full-Stack Engineer and AI Systems Developer with over 14 years of experience designing and building scalable SaaS platforms, cloud-native infrastructure, and AI-powered applications. Proven expertise in developing LLM-driven systems, intelligent automation workflows, and data-driven platforms using modern technologies including Node.js, Python, React, and TypeScript. Experienced in integrating advanced AI capabilities using platforms such as OpenAI API, implementing retrieval-augmented generation (RAG), semantic search, and AI-powered analytics systems. Strong background in backend architecture, distributed systems, and API design, with production experience deploying cloud applications across Amazon Web Services, Google Cloud Platform, and Microsoft Azure. Skilled in designing high-performance APIs, microservices architectures, and scalable data pipelines, with hands-on expertise in containerized environments using Docker and Kubernetes. Adept at leading end-to-end system development, from architecture design to production deployment, while delivering reliable and maintainable software solutions for enterprise and startup environments. Passionate about building AI-driven products that combine machine intelligence with scalable cloud infrastructure to deliver real-world business impact."
     ],
     "education": [
+      {
+        "dateRange": "2024",
+        "degree": "Generative AI with Large Language Models",
+        "school": "DeepLearning.AI"
+      },
+      {
+        "dateRange": "2021",
+        "degree": "Stanford University(Online Program)",
+        "school": "Kanagawa University"
+      },
       {
         "dateRange": "2011 – 2014",
         "degree": "Bachelor's degree in Computer Science",
@@ -167,9 +198,9 @@
     ]
   },
   "social": {
-    "github": "https://github.com/ranky-leo",
+    "github": "https://github.com/sweetgum3897",
     "twitter": "https://twitter.com/",
-    "linkedin": "https://www.linkedin.com/in/eric-jin-467a743b1/",
+    "linkedin": "https://www.linkedin.com/in/sweet-gum-3919ab367",
     "email": "erikjin.yato@gmail.com"
   }
 }
